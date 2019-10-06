@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tx_view_utama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="33dp"
+        android:gravity="center"
+        android:text="Halaman Pria"
+        android:textAllCaps="false"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img_3"
+        android:layout_width="210dp"
+        android:layout_height="233dp"
+        android:layout_below="@+id/txt1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/gb2" />
+
+    <TextView
+        android:id="@+id/desc3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="408dp"
+        android:gravity="center"
+        android:text="Ini adalah gambar 3"
+        android:textAllCaps="false"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

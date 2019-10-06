@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="33dp"
+        android:gravity="center"
+        android:text="Diva Raissa Anindya"
+        android:textAllCaps="false"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img_1"
+        android:layout_width="210dp"
+        android:layout_height="233dp"
+        android:layout_below="@id/txt1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/img1" />
+
+    <TextView
+        android:id="@+id/desc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="400dp"
+        android:gravity="center"
+        android:text="Ini adalah gambar 1"
+        android:textAllCaps="false"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
